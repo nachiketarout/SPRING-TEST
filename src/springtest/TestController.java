@@ -10,6 +10,7 @@ public class TestController {
 	@RequestMapping("/login")
 	public ModelAndView login(){
 		System.out.println("TestController.login() coming herere");
+		System.out.println("TestController.login() another systra commentssss");
 		return  new ModelAndView("welcomePage", "welcomeMessage", "Welcomeeeeeeeee");
 		
 	}// Model and View Closed..
